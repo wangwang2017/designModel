@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yuyuehao.designmodel.MainActivity" tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+    />
+    <EditText
+        android:id="@+id/username"
+        android:layout_below="@id/progressBar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+    />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+
+    />
+    <Button
+        android:id="@+id/clear"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/password"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:layout_alignParentRight="true"
+    />
+
+
+</RelativeLayout>
